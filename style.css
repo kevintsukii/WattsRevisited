@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+body {
+  background: #FFFFFF;
+}
+.hashtag li {
+  display: inline-block;
+  width: 306px;
+  height: 306px;
+  margin: 0px 20px 20px 0px;
+}
+.hashtag {
+  width: 1004px;
+  margin: auto;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 36px;
+  padding: 20px;
+  font-weight: bold;
+  color: #4F4F4F;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+img {
+
+  border: 1px solid #DEDEDE;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+span {
+  font-family: 'Roboto';
+  font-size: 24px;
+  text-align: center;
+  display: block;
+  padding: 10px 0px;
+}
+
+  #header {
+    background: rgba(39, 40, 51, 0.965);
+    box-shadow: 0 0 0.25em 0 rgba(256, 256, 256, 0.25);
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+    #header h1 {
+      height: inherit;
+      left: 1.25em;
+      line-height: inherit;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      color:#000;
+    }
+
+    #header nav {
+      position: absolute;
+      right: 1em;
+      top: 0;
+      background-color: #000;
+      opacity: .7;
+    }
+
+      #header nav ul {
+        margin: 0;
+      }
+
+        #header nav ul li {
+          display: inline-block;
+          margin-left: 1em;
+        }
+
+          #header nav ul li a, #header nav ul li span {
+            border: 0;
+            font-size: 24px;
+            color: #ffffff;
+            display: inline-block;
+            height: inherit;
+            line-height: inherit;
+            outline: 1;
+          }
+
+            #header nav ul li a.button, #header nav ul li span.button {
+              height: 2em;
+              line-height: 2em;
+              padding: 0 1.25em;
+            }
+
+            #header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
+              margin-right: 0.5em;
+            }
+
+          #header nav ul li.active > a, #header nav ul li.active > span {
+            color: #e44c65;
+          }
+
+          #header nav ul li > ul {
+            display: none;
+          }
